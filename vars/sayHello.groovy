@@ -4,11 +4,11 @@
    	echo "clone"
 
    }
-   stage('test'){
+   stage('Test'){
    	echo 'test'
 
    }
-   stage('build'){
+   stage('Build'){
    	echo 'build'
 
    }
@@ -18,7 +18,7 @@
 
    }
 
-   stage('deploy to k8s'){
+   stage('Deploy to k8s'){
    	echo 'deploy'
 
    }
