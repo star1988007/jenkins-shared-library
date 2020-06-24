@@ -1,6 +1,6 @@
  def call(String name = 'human') {
    echo "Hello, ${name}."
-   stage('clone'){
+   stage('Clone'){
    	echo "clone"
 
    }
