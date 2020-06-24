@@ -3,7 +3,6 @@
  }
 
 
-def say(String appname,denv,tag){
+def say(String appname = 'shili',denv,tag){
 
-	println appname
-}
+	println }
