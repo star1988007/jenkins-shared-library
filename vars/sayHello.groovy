@@ -13,7 +13,12 @@
 
    }
 
-   stage('deploy'){
+   stage('容器镜像构建'){
+   	echo 'docker build'
+
+   }
+
+   stage('deploy to k8s'){
    	echo 'deploy'
 
    }
