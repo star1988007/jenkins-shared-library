@@ -2,6 +2,9 @@
    echo "Hello, ${name}."
    stage('Clone'){
    	echo "clone"
+   	sh """
+   		sh echo
+   		"""
 
    }
    stage('Test'){
