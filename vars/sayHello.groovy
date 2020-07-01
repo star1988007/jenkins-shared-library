@@ -4,7 +4,7 @@
    	echo "clone"
    	sh """
    	 python /tmp/test.py
-     /tmp/test.sh tap-web 22:222 test tap/target
+     /tmp/test.sh appname tag denv target
    		"""
 
    }
