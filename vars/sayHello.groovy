@@ -3,7 +3,7 @@
    stage('Clone'){
    	echo "clone"
    	sh """
-   		sh echo
+   	 python /tmp/test.py
    		"""
 
    }
