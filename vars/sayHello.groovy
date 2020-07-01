@@ -4,7 +4,7 @@ def call(String appname = 'jdk',String denv = 'test') {
       echo "clone"
       sh """
        python /tmp/test.py
-       /tmp/test.sh ${appname} ${denv}
+       /tmp/test.sh ${appname}
        """
       }
    stage('Test') {
