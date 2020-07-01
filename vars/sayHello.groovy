@@ -4,7 +4,7 @@
    	echo "clone"
    	sh """
    	 python /tmp/test.py
-     /tmp/test.sh appname tag denv target
+     /tmp/test.sh ${appname} ${tag} ${denv} ${target}
    		"""
 
    }
