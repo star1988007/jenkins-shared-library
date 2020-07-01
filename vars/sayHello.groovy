@@ -1,10 +1,10 @@
- def call(String name = 'human') {
+ def call(String name = 'jdk') {
    echo "Hello, ${name}."
    stage('Clone'){
    	echo "clone"
    	sh """
    	 python /tmp/test.py
-     /tmp/test.sh
+     /tmp/test.sh tap-web 22:222 test tap/target
    		"""
 
    }
