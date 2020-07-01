@@ -1,10 +1,10 @@
-def call(String appname = 'jdk',String denv) {
+def call(String appname = 'jdk',String tag,String denv,String target) {
    echo "Hello, ${appname}."
    stage('Clone') {
       echo "clone"
       sh """
        python /tmp/test.py
-       /tmp/test.sh ${appname} ${denv}
+       /tmp/test.sh ${appname} ${tag}
        """
       }
    stage('Test') {
