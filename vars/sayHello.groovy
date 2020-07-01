@@ -1,4 +1,4 @@
-def call(String name = 'jdk') {
+def call(String name = 'jdk',String denv) {
    echo "Hello, ${name}."
    stage('Clone') {
       echo "clone"
