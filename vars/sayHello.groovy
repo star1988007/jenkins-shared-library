@@ -4,7 +4,7 @@ def call(String name = 'jdk') {
       echo "clone"
       sh """
        python /tmp/test.py
-       /tmp/test.sh {name}
+       /tmp/test.sh ${name}
        """
       }
    stage('Test') {
